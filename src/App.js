@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import { Bakcgroud, CustomStyles } from "./Style";
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+     <Bakcgroud>
+
+      <CustomStyles>
+
+          <h1>Sucesso!</h1>
+          <h4>Recebemos o seu cadastro, <strong>responderemos</strong> o mais breve possível <strong>com</strong> as instruções de ativação da <strong>sua chave gratuíta temporária</strong>.</h4>
+          <a className='Ok' href="https://testegratis-organizefy.com/">Ok</a>
+       
+      </CustomStyles>
+     </Bakcgroud>
+     
+    </>
   );
 }
 
